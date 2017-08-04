@@ -1,4 +1,8 @@
 #!/usr/share/env python3
+
+#Copyright: (c) 2017 by Bhavin Gandhi
+#License: GNU GPL v3, see LICENSE for more details 
+
 from os import system
 from time import sleep
 
