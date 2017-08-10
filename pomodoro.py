@@ -23,9 +23,11 @@ mode = int(input("""Please select the mode,
 per_cycle_mode_choice = "Y"
 
 while True:
-    send_notification("'Start! Focus on your work.'")
+    send_notification("'Start! Focus on your task.'")
+    print("Start! Focus on your task.")
     sleep(work_time * 60)
     send_notification("'Good job! Take a break.'")
+    print("Good job! Take a break.")
     sleep(break_time * 60)
     if mode == 2:
         per_cycle_mode_choice =  input("Do you want to continue? [Y/n]") 
